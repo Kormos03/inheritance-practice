@@ -37,7 +37,7 @@ namespace inheritance_10_03
         }
         public virtual void introduce()
         {
-            Console.WriteLine($"Hi, I'm, {Name}, a {Age} year old {Gender}.")
+            Console.WriteLine($"Hi, I'm, {Name}, a {Age} year old {Gender}.");
         }
     }
 }

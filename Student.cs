@@ -11,10 +11,14 @@ namespace inheritance_10_03
         private string previousOrganization;
         private int skippedDays;
 
-        public Student(string name, int age, string gender,string previousOrganization) : base(name, age, gender)
+        public Student(string name, int age, string gender, string previousOrganization) : base(name, age, gender)
         { 
-            this.previousOrganization = "The School of Life";
-            this.skippedDays = 0;
+            this.previousOrganization = previousOrganization;
+            this.Name = "Jane Doe";
+            this.Age = 30;
+            this.Gender = "female";
+            this.PreviousOrganization = "The School of Life";
+            this.SkippedDays = 0;
         }
 
         public string PreviousOrganization { get => previousOrganization; set => previousOrganization = value; }
